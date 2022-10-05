@@ -1,0 +1,1 @@
+﻿Get-Package | Select-Object -Property Name | Export-Csv -Path '.\pack.csv' -Delimiter ";" -Encoding UTF8 -NoTypeInformation
